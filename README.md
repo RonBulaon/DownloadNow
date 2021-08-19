@@ -148,5 +148,6 @@ This service aims to consolidate API calls to various services to one place. API
     }]
     ```
 
+<br/>
 
 Note : Springshare does not have an API for searches using a keyword, **searchaz** and **searchguide** are uses string matches in title and description only.
