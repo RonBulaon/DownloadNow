@@ -1,7 +1,7 @@
 # Download Now
 This service aims to consolidate API calls to various services to one place. API calls to Crossref, thirdiron and springshare. Service was named **Download Now** because, initially it was intended to produce the full text url of the article only for our download now button for our new website's search function.
 
-<hr>
+<br/>
 
 ## Live Demo:
 * Click [here](https://dlnow.azurewebsites.net/searchaz?keywords=citation) to search AZ using ```citation``` keyword.
@@ -10,7 +10,7 @@ This service aims to consolidate API calls to various services to one place. API
   * title = ```The Economy and Demand for Finance Ph.D.S: 1989–2001```
   * author = ```DING, David K.```
 
-<hr>
+<br/>
 
 ## Local Environment Setup
 1. Create local virtual environment and clone the repository
@@ -49,7 +49,7 @@ This service aims to consolidate API calls to various services to one place. API
     (env) $ python app.py                                           # start app
     ```
 
-<hr>
+<br/>
 
 ## Usage Notes
 * ### /geturl
