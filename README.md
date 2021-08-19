@@ -3,6 +3,15 @@ This service aims to consolidate API calls to various services to one place. API
 
 <hr>
 
+## Live samples:
+* Click [here](https://dlnow.azurewebsites.net/searchaz?keywords=citation) to search AZ using ```citation``` keyword.
+* Click [here](https://dlnow.azurewebsites.net/searchguide?keywords=philippines) to search SMU LibGuides using ```philippines``` keyword.
+* Click [here](https://dlnow.azurewebsites.net/geturl?title=The%20Economy%20and%20Demand%20for%20Finance%20Ph.D.S:%201989%E2%80%932001&author=DING,%20David%20K.) to get DOI and Full Text Download link usin:
+  * title = ```The Economy and Demand for Finance Ph.D.S: 1989–2001```
+  * author = ```DING, David K.```
+
+<hr>
+
 ## Local Environment Setup
 1. Create local virtual environment and clone the repository
     ```bash
@@ -39,7 +48,6 @@ This service aims to consolidate API calls to various services to one place. API
     (env) $ pip install -r requirements.txt
     (env) $ python app.py                                           # start app
     ```
-
 
 <hr>
 
@@ -141,13 +149,4 @@ This service aims to consolidate API calls to various services to one place. API
     ```
 
 
-Note : Springshare does not have API search, **searchaz** and **searchguide** are using string matches in title and description.
-
-<hr>
-
-## Live samples:
-* Click [here](https://dlnow.azurewebsites.net/searchaz?keywords=citation) to search AZ using ```citation``` keyword.
-* Click [here](https://dlnow.azurewebsites.net/searchguide?keywords=philippines) to search SMU LibGuides using ```philippines``` keyword.
-* Click [here](https://dlnow.azurewebsites.net/geturl?title=The%20Economy%20and%20Demand%20for%20Finance%20Ph.D.S:%201989%E2%80%932001&author=DING,%20David%20K.) to get DOI and Full Text Download link usin:
-  * title = ```The Economy and Demand for Finance Ph.D.S: 1989–2001```
-  * author = ```DING, David K.```
+Note : Springshare does not have an API for searches using a keyword, **searchaz** and **searchguide** are uses string matches in title and description only.
